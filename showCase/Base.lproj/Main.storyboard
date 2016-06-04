@@ -120,7 +120,7 @@
                                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                             </textField>
                                         </subviews>
                                         <constraints>
@@ -149,6 +149,9 @@
                                                 <exclude reference="mgg-Lp-oOJ"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="attemptLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Dh-FX-EnZ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -182,7 +185,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="s8v-OR-vy3" kind="show" identifier="loggedIn" id="F8Z-va-ZM8"/>
+                        <outlet property="emailField" destination="37Y-Nk-H9h" id="5lQ-9B-wGf"/>
+                        <outlet property="passwordField" destination="T5u-3o-R3Q" id="DfY-xh-v5R"/>
+                        <segue destination="s8v-OR-vy3" kind="show" identifier="SEGUE_LOGGED_IN" id="F8Z-va-ZM8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
