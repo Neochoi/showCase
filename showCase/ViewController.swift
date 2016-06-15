@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         if NSUserDefaults.standardUserDefaults().valueForKey(KEY_UID) != nil{
-            self.performSegueWithIdentifier("SEGUE_LOGGED_IN", sender: nil)
+            self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
         }
     }
     
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
                         DataService.ds.createFirebaseUser(authData.uid, user: users)
                         NSUserDefaults.standardUserDefaults().setValue(authData.uid, forKey: "KEY_UID")
                         
-                        self.performSegueWithIdentifier("SEGUE_LOGGED_IN", sender: nil)
+                        self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
                     }
                 })
             }
