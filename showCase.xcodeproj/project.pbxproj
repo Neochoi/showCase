@@ -22,6 +22,7 @@
 		C316E6BC1CEEE80F0016CA5D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316E6BB1CEEE80F0016CA5D /* Constants.swift */; };
 		C316E6C21CEEF4700016CA5D /* materialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316E6C11CEEF4700016CA5D /* materialButton.swift */; };
 		C316E6C41CEF12B70016CA5D /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316E6C31CEF12B70016CA5D /* MaterialTextField.swift */; };
+		C386240A1D10DB2F00C35AF9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38624091D10DB2F00C35AF9 /* Post.swift */; };
 		C3E292D31CFFFEF800B541DD /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E292CF1CFFFEF800B541DD /* Bolts.framework */; };
 		C3E292D41CFFFEF800B541DD /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E292D01CFFFEF800B541DD /* FBSDKCoreKit.framework */; };
 		C3E292D51CFFFEF800B541DD /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E292D11CFFFEF800B541DD /* FBSDKLoginKit.framework */; };
@@ -63,6 +64,7 @@
 		C316E6BB1CEEE80F0016CA5D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C316E6C11CEEF4700016CA5D /* materialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = materialButton.swift; sourceTree = "<group>"; };
 		C316E6C31CEF12B70016CA5D /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		C38624091D10DB2F00C35AF9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C3E292CF1CFFFEF800B541DD /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		C3E292D01CFFFEF800B541DD /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		C3E292D11CFFFEF800B541DD /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		C316E6AB1CEE95A10016CA5D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C38624091D10DB2F00C35AF9 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				C316E69A1CEE95260016CA5D /* AppDelegate.swift in Sources */,
 				C316E6BC1CEEE80F0016CA5D /* Constants.swift in Sources */,
 				C316E6C21CEEF4700016CA5D /* materialButton.swift in Sources */,
+				C386240A1D10DB2F00C35AF9 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
