@@ -4,7 +4,6 @@
 use_frameworks!
 
 target 'showCase' do
-pod 'Alamofire'
 pod 'Firebase','=2.5.1'
 end
 

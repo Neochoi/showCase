@@ -84,10 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-showCase/Alamofire.framework"
   install_framework "Pods-showCase/Firebase.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-showCase/Alamofire.framework"
   install_framework "Pods-showCase/Firebase.framework"
 fi
